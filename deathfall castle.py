@@ -94,7 +94,7 @@ def door():
     time.sleep(5)
     d1 = input("You reach the door and are able to take a peek inside before opening, do you?\nType y or n to continue.\n").lower()
     if d1 == "y":
-        print("You notice the door is encased in a thin layer of an unknown cloth material.")
+        print("You notice the door is encased in a thin layer of an unknown cloth material.\n")
         time.sleep(3)
         print("You slowly peel back the cloth as it has been binded to the door by moisture and fungus after many years.\n")
         time.sleep(3)
@@ -102,7 +102,7 @@ def door():
         time.sleep(3)
         print("You're able to slowly pry the door open to greet the beast, but quietly since you assume it cannot see.\n")
         time.sleep(2)
-        d3 = input("You make your way but notice you might be able to get a sneak attack on the beast, do you take this chance?\nType y or n to continue.")
+        d3 = input("You make your way but notice you might be able to get a sneak attack on the beast, do you take this chance?\nType y or n to continue.\n")
         if d3 == "y":
             global attack
             print(f"You slowly walk up the staircase and equip the weapon from your belt, which deals {attack} damage and getting ready to take the overhead angle from the balcony that sits above the now apparent troll figure.\n")
@@ -128,7 +128,7 @@ def door():
                 time.sleep(2)
                 global defense
                 defense -= 1
-                print(f"Whole body sore and in pain, you barely manage to get up, leaving you with {defense}, you better tread carefully.\n")
+                print(f"Whole body sore and in pain, you barely manage to get up, leaving you with {defense} defense, you better tread carefully.\n")
                 time.sleep(3)
                 print("You quickly spot a lever in the distance which seems to release a spike wall trap meant for adventures like you.\n")
                 time.sleep(3)
